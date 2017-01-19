@@ -1,0 +1,522 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-radi",
+				"border-radius"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"shado",
+				"text-shadow"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"bg-c",
+				"background-color"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"strin",
+				"stringify"
+			],
+			[
+				"json",
+				"json"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"tex",
+				"text_to_tweet"
+			],
+			[
+				"twi",
+				"twitterLink"
+			],
+			[
+				"te",
+				"text_to_tweet"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"my",
+				"myValue"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"btn-",
+				"btn-lg"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"word",
+				"word-wrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/eldrad/Desktop/Git/100-days-of-code/log.md",
+			"settings":
+			{
+				"buffer_size": 9935,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<!-- jquery -->\n\t<script\n          src=\"https://code.jquery.com/jquery-3.1.1.min.js\"\n          integrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\"\n          crossorigin=\"anonymous\">\n    </script>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\">\n\t<!-- bootstrap -->\n\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n\t\t\n\t<title>wikiApp</title>\n\n</head>\n<body>\n\t<div class=\"wrapper\">\n\t\t<div id=\"query\">\n\t\t\t\n\t\t</div>\n\n\n\n\n\t</div>\n<script src=\"script.js\" </script>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 608,
+			"file_write_time": 131293363990000000,
+			"settings":
+			{
+				"buffer_size": 673,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "Package Control: re",
+		"selected_items":
+		[
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pi",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: po",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eldrad/Desktop/Git/wikiApp",
+		"/Users/eldrad/Desktop/Git/weatherApp"
+	],
+	"file_history":
+	[
+		"/Users/eldrad/Desktop/Git/weatherApp/index.html",
+		"/Users/eldrad/Desktop/Git/weatherApp/script.js",
+		"/Users/eldrad/Desktop/Git/weatherApp/main.css",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/log.md",
+		"/Users/eldrad/Desktop/Git/templates/index.html",
+		"/Users/eldrad/Desktop/Git/randomQuote/script.js",
+		"/Users/eldrad/Desktop/Git/weatherApp/icons.txt",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/todo.md",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/resources.md",
+		"/Users/eldrad/Desktop/Git/templates/untitled",
+		"/Users/eldrad/Desktop/Git/weatherApp/style.css",
+		"/Users/eldrad/Desktop/Git/weatherApp/Ajax_practice",
+		"/Users/eldrad/Desktop/Git/randomQuote/style.css",
+		"/Users/eldrad/Desktop/Git/randomQuote/index.html",
+		"/Users/eldrad/Library/Application Support/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/eldrad/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/eldrad/Desktop/Git/randomQuote/test.js",
+		"/Users/eldrad/Library/Application Support/Sublime Text 3/Packages/Browser Refresh/Default (OSX).sublime-keymap",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/js_methods",
+		"/Users/eldrad/Desktop/test.html",
+		"/Users/eldrad/Desktop/Git/Random_quote/index.jade",
+		"/Users/eldrad/Desktop/Git/Random_quote/index.html",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/JSON_Ajax.md",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/notes-js",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/JSON APIs and Ajax",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/rules.md",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/to do.md",
+		"/Users/eldrad/Desktop/Git/100days/log.md",
+		"/Users/eldrad/Desktop/Git/100days/rules.md",
+		"/Users/eldrad/Desktop/Git/ToDo.md",
+		"/Users/eldrad/Desktop/Git/100-days-of-code/TO DO.md",
+		"/Users/eldrad/Desktop/Git/100days/TO DO",
+		"/Users/eldrad/Downloads/Ex_Files_Bs3EssT/Exercise Files/Ch03/03_01/bootstrap/index.html",
+		"/Users/eldrad/Downloads/Ex_Files_Bs3EssT/Exercise Files/Ch03/03_01/bootstrap/Styles",
+		"/Users/eldrad/Downloads/Ex_Files_Bs3EssT/Exercise Files/Ch02/02_04/bootstrap/index.html",
+		"/Users/eldrad/Downloads/Ex_Files_Bs3EssT/Exercise Files/Ch02/02_03/bootstrap/index.html",
+		"/Users/eldrad/Downloads/Ex_Files_Bs3EssT/Exercise Files/Ch02/02_02/bootstrap/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin",
+			"30px",
+			"10px",
+			"visibility",
+			"\n}",
+			"div",
+			"temp",
+			"placeholder",
+			"visibility",
+			"display",
+			"margin",
+			"padding",
+			"position",
+			"absolute",
+			"relative",
+			"location",
+			"Fahrenheit",
+			"Celsius",
+			"80px",
+			"div",
+			"span",
+			"\");\n",
+			"formatted_address",
+			"Saturday",
+			"class",
+			"main",
+			"n\"",
+			"div",
+			"test",
+			"div",
+			"test",
+			"col",
+			"md",
+			"6",
+			"section"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/eldrad/Desktop/Git/100-days-of-code"
+		},
+		{
+			"path": "/Users/eldrad/Desktop/Git/wikiApp"
+		},
+		{
+			"path": "/Users/eldrad/Desktop/Git/weatherApp"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/eldrad/Desktop/Git/100-days-of-code/log.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9914,
+								9914
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 673,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sty",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
