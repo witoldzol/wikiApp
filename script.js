@@ -1,24 +1,22 @@
 $(document).ready(function(){
+
+
 	//opens random page
 	$("#random").on("click", function(){
 		var randomWiki = "https://en.wikipedia.org/wiki/Special:Random";
 		window.open(randomWiki, '_blank');
 	});	 
 
+	//we need to get data to autocomplete, so when we start typing, this script will getJson file so that can autocomplete from it.
 	$("#searchLine").on("keyup", function(){
 		//our input in search bar
 		var searchTerm = $("#searchLine").val();
 		//link to wiki api
 		var wikiLink = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json&callback=?";
 		$.getJSON(wikiLink, function(data){
-			//console.log(data[1]);
-			//$(function() {
-				var list = data[1];
-				$("#searchLine").autocomplete({
-					source: list
-				});
-				
-			//});
+			$("#searchLine").autocomplete({
+				source: data[1]
+			});
 		});
 	});	
 
@@ -58,11 +56,6 @@ $(document).ready(function(){
  		    	alert('Search box is empty, please put something in.');
  		    	}
 		});
-
-	
-		 
-
-
 	});
 
 });

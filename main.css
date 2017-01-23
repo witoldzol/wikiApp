@@ -1,15 +1,13 @@
-.wrapper {
-	margin-left: 5%;
 
-}
 #results {
+	margin-top: 1%;
 	width: 80%;
 	height: 10%;
 }
 
 p {
 	color: white;
-	background-color: dodgerblue;
+	background-color: #ff1493;
 	padding: 5px 5px 5px 5px;
 	border: solid 0.5px black;
 	border-radius: 15px;
@@ -17,4 +15,21 @@ p {
 
 #pageLink:hover {
 	opacity: 0.5;
+}
+#searchGroup {
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 250px;
+}
+#searchLine {
+	font-size: 22px;
+	width: 100%;
+	height: 50px;
+	border-radius: 15px;
+	border: solid 4px green;
+	outline: none;
+	text-indent: 8px;
+}
+.ui-helper-hidden-accessible {
+	visibility: hidden;
 }

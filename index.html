@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css">
 		<!-- bootstrap -->
@@ -26,12 +27,22 @@
 		<div class="wrapper">
 					<h1>Welcome to wiki.App!!</h1>
 
-					<div class="ui-widget">
-					  <label for="searchLine">Tags: </label>
-					  <input id="searchLine"></input>
+						<form id="searchGroup" class="ui-widget">
+						  <label for="searchLine"></label>
+						  <input  id="searchLine" ></input>
+						</form>
+
+						<div id="sb-search" class="sb-search">
+							<form>
+								<input class="sb-search-input" placeholder="Enter your search term" type="search" value="" name="search" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search"></span>
+							</form>
+						</div>
+
+
 						<button id="searchBtn" class="btn btn-primary">Search</button>
 						<button id="random" class="btn">Random Wiki</button>
-					</div>
 
 
 						
