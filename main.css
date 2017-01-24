@@ -1,3 +1,18 @@
+#body {
+	background-color: #67BCDB;
+	text-align: center;
+	margin: 5% 15% 15% 15%;
+
+}
+
+#random {
+	width: 0%;
+	min-width: 60px;
+	height: 60px;
+	background-color: #32CD32;
+	background: url('https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/64x64/plain/die.png');
+	border: solid green 2px;
+}
 
 #results {
 	margin-top: 1%;
@@ -32,4 +47,12 @@ p {
 }
 .ui-helper-hidden-accessible {
 	visibility: hidden;
+}
+#footer {
+	text-align: center;
+	display: block;
+	margin-top: 100px;
+	position: absolute;
+	bottom:5%;
+	left: 30%;
 }

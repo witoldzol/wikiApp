@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<!-- jQuery -->
+		<script src="js/modernizr.custom.js"></script>
 		<script
               src="https://code.jquery.com/jquery-3.1.1.min.js"
               integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -27,30 +30,35 @@
 		<div class="wrapper">
 					<h1>Welcome to wiki.App!!</h1>
 
-						<form id="searchGroup" class="ui-widget">
+					<!--	<form id="searchGroup" class="ui-widget">
 						  <label for="searchLine"></label>
 						  <input  id="searchLine" ></input>
-						</form>
-
-						<div id="sb-search" class="sb-search">
-							<form>
-								<input class="sb-search-input" placeholder="Enter your search term" type="search" value="" name="search" id="search">
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"></span>
-							</form>
-						</div>
-
 
 						<button id="searchBtn" class="btn btn-primary">Search</button>
-						<button id="random" class="btn">Random Wiki</button>
+						</form> -->
 
-
-						
+						<div>
+							<button id="random" class="btn"></button>
+						</div>						
+						<div class="column ui-widget">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"></span>
+								</form>
+							</div>
+						</div>
 					<div id="results"></div>
 		</div>
 
 		
-	
+	<script src="js/classie.js"></script>
+	<script src="js/uisearch.js"></script>
 	<script src="script.js"></script>	
+	<script>
+		new UISearch( document.getElementById( 'sb-search' ) );
+	</script>
+	<footer id="footer"><kbd>Project made for FreeCodeCamp <br> Search Bar has been shamelessly copied from https://tympanus.net/Tutorials/ExpandingSearchBar/</kbd></footer>
 	</body>
 </html>

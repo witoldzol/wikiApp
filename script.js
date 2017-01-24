@@ -8,22 +8,22 @@ $(document).ready(function(){
 	});	 
 
 	//we need to get data to autocomplete, so when we start typing, this script will getJson file so that can autocomplete from it.
-	$("#searchLine").on("keyup", function(){
+	$("#search").on("keyup", function(){
 		//our input in search bar
-		var searchTerm = $("#searchLine").val();
+		var searchTerm = $("#search").val();
 		//link to wiki api
 		var wikiLink = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json&callback=?";
 		$.getJSON(wikiLink, function(data){
-			$("#searchLine").autocomplete({
+			$("#search").autocomplete({
 				source: data[1]
 			});
 		});
 	});	
 
-	$("#searchBtn").on("click", function(){
+	$(".sb-icon-search").on("click", function(){
 
 		//our input in search bar
-		var searchTerm = $("#searchLine").val();
+		var searchTerm = $("#search").val();
 		//link to wiki api
 		if(searchTerm == ''){
 			
@@ -52,9 +52,7 @@ $(document).ready(function(){
 			    		}
 		    	
  		    	},
- 		    	error: function(errorMsg){
- 		    	alert('Search box is empty, please put something in.');
- 		    	}
+ 		    	
 		});
 	});
 
